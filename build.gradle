@@ -52,3 +52,29 @@ task someCrap dependsOn mlRestDeploy{
         println "someCrap"
     }
 }
+
+task DeployRest{
+
+    doFirst{
+        println "Starting RestDeployment"
+    }
+    doLast{
+        def workingDir = project.projectDir
+
+        def curlFile = workingDir.path + "/CurlCommands.xml"
+
+
+        def slurper = new XmlSlurper()
+
+        def slurperDoc  = slurper.parse(curlFile)
+
+        slurperDoc.Endpoint.each ({
+            println "Deploying ${it.Name} from file ${it.XqyName}"
+
+
+        })
+
+
+        println "Completed Rest Deployment"
+    }
+}

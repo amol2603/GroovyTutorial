@@ -1,0 +1,18 @@
+<Students>
+	<Student>
+		<Name>Amol</Name>
+		<Address>Kandivali</Address>
+	</Student>
+	<Student>
+		<Name>Sneha</Name>
+		<Address>Kandivali</Address>
+	</Student>
+	<Student>
+		<Name>Devashish</Name>
+		<Address>Hyderabad</Address>
+	</Student>
+	<Student>
+		<Name>Diya</Name>
+		<Address>Hyderabad</Address>
+	</Student>
+</Students>

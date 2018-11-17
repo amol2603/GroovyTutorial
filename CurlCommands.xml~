@@ -1,0 +1,10 @@
+<RestEndpoints>
+	<Endpoint>
+		<Name>
+			IELookUp
+		</Name>
+		<XqyName>
+			/plugins/IELookup.xqy
+		</XqyName>
+	<Endpoint>
+</RestEndpoints>

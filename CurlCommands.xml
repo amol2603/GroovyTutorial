@@ -1,0 +1,14 @@
+<RestEndpoints>
+	<Endpoint>
+		<Name>IELookUp</Name>
+		<XqyName>/plugins/IELookup.xqy</XqyName>
+	</Endpoint>
+	<Endpoint>
+		<Name>IELookUp1</Name>
+		<XqyName>/plugins/IELookup1.xqy</XqyName>
+	</Endpoint>
+	<Endpoint>
+		<Name>IELookUp2</Name>
+		<XqyName>/plugins/IELookup2.xqy</XqyName>
+	</Endpoint>
+</RestEndpoints>
